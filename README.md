@@ -117,15 +117,3 @@ Contributions to Goodreads Book Scraper are welcome! If you'd like to contribute
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 """
-    return readme_content
-
-# Generate README.md content
-readme_content = generate_readme()
-
-# Write content to a README.md file
-with open("README.md", "w") as file:
-    file.write(readme_content)
-
-print("README.md generated successfully.")
-
-
